@@ -23,7 +23,6 @@ public class Bai3Activity extends AppCompatActivity {
         btnChonMau = findViewById(R.id.btnChonMau);
         manHinh = findViewById(R.id.manHinh);
 
-        // Đăng ký view cho context_menu
         registerForContextMenu(btnChonMau);
     }
 

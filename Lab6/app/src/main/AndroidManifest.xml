@@ -22,7 +22,9 @@
         </activity>
         <activity android:name=".Bai2Activity" />
         <activity android:name=".Bai3Activity" />
-
+        <activity
+            android:name=".Bai1Activity"
+            android:theme="@style/Theme.Lab6.WithActionBar" />
 
     </application>
 

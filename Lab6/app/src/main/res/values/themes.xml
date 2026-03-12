@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.Lab6" parent="Base.Theme.Lab6" />
+
+    <style name="Theme.Lab6.WithActionBar" parent="Theme.Material3.DayNight">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+        <item name="colorPrimary">#6200EE</item>
+    </style>
 </resources>

@@ -28,6 +28,12 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
+        Button btnBai1 = findViewById(R.id.btnBai1);
+        btnBai1.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, Bai1Activity.class);
+            startActivity(intent);
+        });
+
         Button btnBai2 = findViewById(R.id.btnBai2);
         btnBai2.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, Bai2Activity.class);
@@ -43,18 +49,5 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.option_menu, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
 
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        int id = item.getItemId();
-        String itemName = item.getTitle().toString();
-        Toast.makeText(this, "Bạn đã chọn item " + itemName, Toast.LENGTH_SHORT).show();
-        
-        return super.onOptionsItemSelected(item);
-    }
 }
