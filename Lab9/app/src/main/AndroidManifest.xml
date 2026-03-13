@@ -20,6 +20,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Ex1Activity"/>
+        <activity android:name=".Ex2Activity"/>
+        <activity android:name=".Ex3Activity"/>
+        <activity android:name=".Ex4Activity"/>
+        <activity android:name=".Ex5Activity"/>
     </application>
 
 </manifest>
