@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">demo_fragment</string>
+    <string name="screen_one">Screen 1</string>
+    <string name="screen_two">Screen 2</string>
+    <string name="click_me">Click Me!</string>
+    <string name="count_0">Count: 0</string>
+</resources>
